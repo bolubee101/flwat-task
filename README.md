@@ -25,13 +25,13 @@ $ npm test
 ```
 
 ###### To add tests
-- define test parameters as shown here:
+- define test parameters as shown here: https://github.com/bolubee101/flwat-task/blob/main/tests/example%20template.js
 - import new test
 
 ```js
 const example5=require("./example5");
 ```
-- Add test to 
+- Add test to test.js https://github.com/bolubee101/flwat-task/blob/main/tests/test.js
 ```js
 test('"/validate-rule  Missing field in rule object', async () => {
     res=  await request(app)
